@@ -7,24 +7,14 @@ body {
 
   box-sizing: border-box;
 
-  color: #FF5252;
+  color: #ff5252;
   background-color: #006494;
 }
 
 a {
-  color: #FF5252;
   text-decoration: none;
-}
 
-.btn {
-  border: 1px solid #FF5252;
-  padding: 5px;
-  transition: all 0.2s ease-in-out;
-}
-
-.btn:hover {
-  background-color: #FF5252;
-  color: #006494;
+  color: #ff5252;
 }
 
 .wrapper {
@@ -51,7 +41,6 @@ a {
 
 #quote .credit-p {
   font-size: 1.5em;
-  font-size: em;
 
   margin-top: 0;
 
@@ -62,23 +51,24 @@ a {
   text-transform: uppercase;
 }
 
-#quote a.share {
-  position: relative;
+#quote .menu-p {
+  font-size: 1.8em;
+
+  margin-top: 0;
+
+  text-align: center;
 }
 
-#quote a.share i {
-  transition: opacity 0.2s linear;
+#quote .menu-p a i {
+  display: inline-block;
+  margin: 0 5px;
+  transition: opacity .2s linear;
+
   opacity: .8;
 }
 
-#quote a.share:hover i {
+#quote .menu-p a:hover i {
   opacity: 1;
-}
-
-#quote .new-quote-p {
-  text-align: center;
-  font-size: 1.2em;
-  margin-top: 10px;
 }
 
 /* End Quote Section */
